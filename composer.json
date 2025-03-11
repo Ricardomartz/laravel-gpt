@@ -6,17 +6,15 @@
 	    "openai",
         "gpt"
     ],
-    "homepage": "https://github.com/maltekuhr/laravel-gpt",
-    "license": "MIT",
-    "type": "library",
-    "authors": [
+    "name": "maltekuhr/laravel-gpt",
+    "description": "Streamlined integration of OpenAI's ChatGPT (GPT-3.5, GPT-4) into Laravel applications.",
+    "repositories": [
         {
-            "name": "Malte Kuhr",
-            "email": "malte@maltekuhr.de",
-            "role": "Developer"
+            "type": "vcs",
+            "url": "https://github.com/Ricardomartz/laravel-gpt"
         }
     ],
-    "require": {
+   "require": {
         "php": "^8.1.0",
         "guzzlehttp/guzzle": "^7.5",
         "illuminate/support": "^9.2|^10|^11",
